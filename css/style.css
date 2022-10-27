@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FDECDA;
+}
+
+/* Logo Yeezy */
+img {
+    position: absolute;
+    width: 218px;
+    height: 61px;
+    left: 69px;
+    top: 41px;
+}
+
+/* Menu */
+.menu {
+    padding-top: 5px;
+    position: relative;
+    width: 689px;
+    height: 6px;
+    left: 781px;
+    top: 53px;
+}
+
+/* Estilização do MENU */
+.menu a {
+    margin-right: 35px;
+    text-decoration: none;
+    font-family: 'Average', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    display: inline;
+    align-items: center;
+    color: #000000;
+}
+
+/* Titulo do Tenis */
+.Yeezy500 {
+    font-family: 'Average';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 122px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+}
+
+/* Descriação do Tenis */
+p {
+    position: absolute;
+    width: 656px;
+    height: 360px;
+    left: 781px;
+    top: 310px;
+    text-align: justify;
+    font-family: 'Average';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+h1 {
+    position: absolute;
+    height: 122px;
+    left: 839px;
+    top: 188px;
+    font-family: 'Average';
+    font-size: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 122px;
+    display: flex;
+    align-items: center;
+}
+
+/* Tenis Yeezy 500 */
+.Y {
+    position: absolute;
+    width: 595px;
+    height: 312px;
+    left: 39px;
+    top: 326px;
+    background: url(../imagens/SeekPng.com_yeezy-png_584032.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: drop-shadow(0px 7px 2px rgba(0, 0, 0, 0.2));
+}
+
+/* Botão Buy Now */
+button {
+
+    position: absolute;
+    width: 136px;
+    height: 36px;
+    left: 696px;
+    top: 699px;
+    background-color: #F3DBC3;
+    border-radius: 12px;
+    border: none;
+    font-family: 'Kanit';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 28px;
+    display: inline-block;
+    align-items: center;
+    color: #000000;
+    cursor: pointer;
+
+}
+
+/* Animação do Botão Buy Now */
+button:hover {
+    background-color: #eaccad;
+    color: #ffff;
+}
+
+.bn{
+    position: absolute;
+    width:900px;
+    left: 100px;
+}
+
+/* Botão Details */
+#DETAILS {
+    box-sizing: border-box;
+    position: absolute;
+    width: 136px;
+    height: 36px;
+    left: 856px;
+    top: 699px;
+    background-color: #FDECDA;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    font-family: 'Kanit';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 28px;
+    display: inline-block;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+/* Animação do Botão Details */
+#DETAILS:hover {
+    background-color: #eaccad;
+    color: #ffff;
+}
+
